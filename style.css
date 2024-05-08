@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(34, 2, 65);
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+header img {
+    width: 40%;
+}
+
+.box {
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 100px;
+}
+
+.box h1 {
+    font-weight: lighter;
+    font-family: sans-serif;
+
+
+}
+
+.box p {
+    padding: 5px;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+}
+
+.box i {
+    font-size: xx-large;
+}
+
+.box button {
+    padding: 10px;
+    margin: 40px;
+    width: 100px;
+    background-color: lightblue;
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.container i {
+    background-color: rgb(68, 149, 177);
+    border-radius: 50%;
+    padding: 10px;
+    width: 60px;
+    height: 40px;
+    margin: 0 20px;
+
+}
+
+.card {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card-1 {
+    display: flex;
+    width: 50%;
+    padding: 40px 10px;
+
+
+}
+
+.card-1 p {
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+.blok {
+    background-color: rgb(14, 68, 87);
+    color: white;
+    width: 100%;
+
+}
+
+.blok-1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.blok-1 img {
+    width: 30%;
+    position: relative;
+    top: 50px;
+}
+
+.blok-2 {
+    width: 30%;
+    padding: 20px;
+    margin-top: 30px
+}
+
+.blok-2 h2 {
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.blok-2 h5,
+p {
+    margin-top: 20px;
+}
+
+.blok-2 button {
+    background-color: rgb(14, 68, 87);
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.blok-2 a {
+    color: white;
+    font-weight: lighter;
+}
+
+.block {
+    display: flex;
+    width: 100%;
+}
+
+.block-1 {
+    width: 50%;
+    margin: 100px;
+}
+
+.block-1 h1 {
+    width: 450px;
+    position: relative;
+    left: 155px;
+    font-size: 42px;
+    font-weight: lighter;
+
+}
+
+.block-1 p {
+    text-transform: uppercase;
+    position: relative;
+    left: 540px;
+    margin-top: 35px;
+    width: 500px;
+    font-size: 16px;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    background-color: rgb(14, 68, 87);
+}
+
+.check {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+
+}
+
+.content-1 {
+    width: 50%;
+    margin: auto;
+    padding: 140px 0px;
+
+}
+
+.content-2 {
+    width: 180px;
+    height: 210px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+.check h1 {
+    color: rgb(14, 68, 87);
+}
+
+.check a {
+    color: black;
+    font-size: small;
+    position: relative;
+    top: 15px;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content h5 {
+    color: white;
+    position: relative;
+    bottom: 70px;
+    padding-left: 240px;
+}
+
+.gathering p {
+    margin: 60px;
+    padding: 40px;
+    width: 940px;
+    padding-left: 340px;
+    line-height: 30px;
+    color: rgb(14, 68, 87);
+    font-size: larger;
+}
+
+.gathering img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.nature {
+    background-image: url("./images/sx-min.jpg");
+    background-size: cover;
+    min-height: 600px;
+    background-position: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nature h1 {
+    width: 422px;
+    margin-top: 250px;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.nature-1 p {
+    width: 329px;
+    margin-top: 260px;
+    letter-spacing: 1px;
+}
+
+.nature-1 h5 {
+    margin-top: 20px;
+}
+
+.nature-1 button {
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    width: 133px;
+    position: relative;
+    top: 25px;
+}
+
+.last {
+    width: 100%;
+    background-color: rgb(14, 68, 87);
+}
+
+.end {
+    display: flex;
+}
+
+.last-1 {
+    width: 50%;
+    background-color: white;
+    padding: 100px 15px;
+}
+
+.last-1 i {
+    letter-spacing: 10px;
+}
+
+.last-2 {
+    width: 50%;
+    background-color: rgb(14, 68, 87);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 40px;
+
+}
+
+.last-2 input,
+textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 50%;
+    padding: 15px 0;
+}
+
+.last-2 button {
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+
+}
+
+.end-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    color: white;
+    background-color: rgb(14, 68, 87);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
